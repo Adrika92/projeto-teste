@@ -1,0 +1,97 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap')
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    
+    box-sizing: border-box;
+    background-color: #000;
+    color: #f6f6f6;
+    
+}
+
+.cabecalho {
+    padding: 2% 0% 0% 15%;
+}
+
+.apresentacao {
+    padding: 2% 3%;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+   
+}
+
+.apresentacao__imagem {
+    width: 100%;
+}
+
+.apresentacao__imagem__2 {
+    width: 500px;
+    height: 500px;
+    
+      
+    
+}
+
+.apresentacao__links {
+    display: flex;
+    justify-content: space-between;
+    flex-direction:column;
+    align-items:center;
+    gap: 30px;
+    
+}
+
+.apresentacao__links__titulo {
+    font-family:'Open Sans' ,sans-serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: #f6f6f6;
+}
+
+.apresentacao__links__navegacao {
+
+    background-color: #617146;
+    justify-content: center;
+    border: 2px;
+    gap: 16px;
+    width: 180px;
+    text-align: center;
+    border-radius: 16px;
+    font-size: 24px;
+    font-weight: 600; 
+    padding: 21.5px 0;
+    text-decoration: none;
+    color:#000;
+    font-family:arial;
+    
+
+}
+
+.apresentacao__links__navegacao:hover {
+    background-color: #808080
+    
+}
+
+.rodape {
+    
+    padding: 2px;
+    color: #f6f6f6;
+    text-align:center;
+    font-family: Arial;
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #617146
+
+
+}
+
+
+    
+    
+   
